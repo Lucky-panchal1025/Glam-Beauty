@@ -1,0 +1,322 @@
+*{margin: 0px;
+font-family: Arial, Helvetica, sans-serif;
+border: border-box;
+
+}
+.navbar{
+    background-color: rgb(243, 115, 115);
+    height: 64px;
+    color: white;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
+
+.logo{
+    background-image: url(image.jpg);
+    width: 100px;
+    height: 50px;
+    background-size: cover;
+    background-position: center;}
+
+    .border{
+        border: 1.5px solid transparent;}
+        .border:hover{border:1.5px solid black}
+
+        /** box2 **/
+        .nav-search:hover { 
+          border: 2px solid orange;
+          border-radius: 19px;
+        }
+    .nav-search{
+        display: flex;
+        /* background-color: pink; */
+        width: 60%;
+        height: 40px;
+        border-radius: 4px;
+        justify-content: space-evenly;
+    }
+  .search{
+    width: 100%;
+    border: none;
+    font-size: 1rem;
+    border-top-right-radius: 19px;
+    border-bottom-right-radius: 19px;
+  }
+
+  .icon{
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #febd68;
+    border-top-left-radius: 19px;
+    border-bottom-left-radius: 19px;
+     color: black;
+    font-size: 1.1rem;
+  }
+
+  /** box3  **/
+  .login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .user{
+    width: 25px;
+    font-size: 20px;
+  }
+
+  .down{
+    margin: 5px;
+  }
+
+ /** box4 **/
+ .cart{
+    font-size: 20px;
+ }
+ /** box4 **/
+ .shop{
+    font-size: 20px;
+ }
+ /** box5 **/
+ .dot{
+    font-size: 20px;
+ }
+ /** panel  **/
+
+ .panel{
+    height: 40px;
+    background-color: rgb(17, 13, 11);
+    color: white;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    font-size: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+ }
+
+ .offer{
+    margin-left:25px 
+ }
+ .Beauty{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
+ /*****  Decoretion  *****/
+ .product{
+  background-image: url(product-jpg.jpg);
+  height: 130px;
+  width: 240px;
+  background-size: cover;
+ }
+ .kaybeauty{
+  background-image: url(kay_beauty.jpg);
+   height: 130px;
+  width: 240px;
+  background-size: cover;
+ }
+
+ .decoretion{
+          background-color: white;
+          height: 190px;
+          width: 250px;
+          margin-top: 10px;
+          margin-left: 90px;
+          background-image: url(lipsticks.jpg.png);
+          background-size: cover;
+        }
+        .eyes{
+          margin-left: 50px;
+        }
+         .beautiful{
+          display: flex;
+          justify-content: space-evenly;
+          align-items: center;
+         }
+        .beauty{
+          background-color: white;
+          height: 180px;
+          width: 200px;
+          margin-top: 10px;
+          margin-left: 20px;
+          background-image: url(lakme.jpg);
+          background-size: cover;
+          margin-left: 10%;
+        }
+
+
+ /** shopping **/
+ a{
+   text-decoration: none;
+ }
+ 
+ .shop-section{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    
+ } 
+ .box{
+    /* border: 2px solid black; */
+    height: 300px;
+    width: 20%;
+    background-color: orange;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 20px;
+    margin-right: 30px;
+ }
+ .one{
+   margin-top: 40%;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+  color: white;
+  text-decoration: none;
+ }
+ .two{
+   margin-top: 40%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   color: white;}
+ .three{
+   margin-top: 40%;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   color: white;
+ }
+ .four{
+   margin-top: 40%;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   color: white;
+ }
+ /** trusted  **/
+ .trusted{
+   background-color: royalblue;
+   height: 250px;
+   color: white;
+   margin-top: 50px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 50px;
+   margin-left: 150px;
+   margin-right: 150px;
+   font-family: 'Great Vibes', cursive;
+   border-radius: 10% 20%;
+ }
+
+ /** brand  **/
+ .Recode{
+  display: flex;
+ }
+ .recode{
+  background-image: url(recode.png);
+   height: 220px;
+  width: 240px;
+  background-size: cover;
+  display: flex;
+ }
+ .offers{
+        background-color: pink;
+        margin-top: 10px;
+        border-radius: 50%; 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 1300px;
+        margin-right: 160px;
+ }
+ .color{
+   color: darkblue;
+   margin-right: 50px;
+   font-size:50px ;
+ }
+.brand{
+   margin-right: 300px;
+} 
+.huda{
+  background-image: url(huda.jpg);
+   height: 220px;
+  width: 200px;
+  background-size: cover;
+  display: flex;
+}
+.pen{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.nars{
+  background-image: url(nars.jpg);
+    height: 200px;
+  width: 300px;
+  background-size: cover;
+  display: flex;
+}
+.Mrucha{
+  background-image: url(Mrucha.jpg);
+  height: 200px;
+  width: 300px;
+  background-size: cover;
+  display: flex;
+}
+.nykaa{
+  background-image: url(nykaa.avif);
+  height: 200px;
+  width: 300px;
+  background-size: cover;
+  display: flex;}
+ 
+/** footer **/
+ul{
+   list-style: none;
+}
+.end{
+   background-color:rgb(11, 14, 56);
+   margin-top: 10px;
+   /* margin-left: 20px;
+   margin-right: 20px; */
+   /* border-radius: 8%; */
+   display: flex;
+   color: white;
+   justify-content: space-evenly;
+   align-items: center;
+}
+.point{
+   margin-left: 10px;
+   margin-bottom: px;
+   display: f;
+}
+  
+.phone{
+  margin-left: 300px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.social{
+  /* display: flex; */
+  margin-left: 300px;
+  font-size: 20px;
+}
+.foot-panel2{
+    background-color: #222f3d;
+    color: white;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  ul{
+    margin-top: 20px;
+}
+
+ul a{
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+    color: #dddddd;
+}
+
